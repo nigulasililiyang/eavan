@@ -1,7 +1,9 @@
 {
   "name": "eavan",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Frontend Engineer Portfolio - Apple Style",
+  "author": "杨雯 <136423275@qq.com>",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,11 +12,17 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "vue": "^3.5.18"
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1",
+    "@vueuse/core": "^10.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.1",
     "gh-pages": "^6.3.0",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+
   }
 }
